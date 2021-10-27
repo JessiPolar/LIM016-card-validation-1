@@ -6,7 +6,79 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <h1>Slide</h1>
+      <h2>Funcionalidad de las zapatillas patines</h2>
+      <h3>Abre la cerradura de seguridad</h3>
+      <p>Gire el boton del interruptor de seguridad en el talon de la zapatilla</p>
+      <H3>Rueda de expulsion</H3>
+      <p>Cuando la direccion del interruptor es correcta,presione el interruptor firmemente y la rueda se levantara automaticamente</p>
+      <h3>Polea oculta</h3>
+      <p>Tiene buena resistencia al impacto,reduce el ruido,lo hace mas comodo y tiene un mejor efecto de patinaje</p>
+
+      <h3>Zapatillas de Mujer</h3>
+      <h3>Zapatillas de Hombre</h3>
+      <h3>Zapatillas de Niños</h3>
+       
+
+    <form action="" id="formulario-datos" class="#formulario-datos">
+      <div>
+        <h3>Datos de Entrega</h3>
+        <label>Nombre:<input type="text"></label><br><br>
+        <label>Apellido:<input type="text"></label><br><br>
+        <label>Direccion:<input type="text"></label><br><br>
+        <label>Distrito:<input type="text"></label><br><br>
+        <label>Ciudad:<input type="text"></label><br><br>
+        <label>Telefono:<input type="text"></label><br><br>
+        <label>Email:<input type="text"></label><br><br>
+      </div>
+
+    </form>
+
+    <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+      <div>
+        <h3>Medios de Pago</h3>
+      </div>
+      <div class="grupo">
+        <label for="inputNumero">Numero Tarjeta:</label>
+        <input type="text" id="inputNumero" maxlength="19" autocomplete="off"><br><br>
+      </div>
+      <div class="grupo">
+        <label for="inputNombre">Nombre:</label>
+        <input type="text" id="inputNombre" maxlength="19" autocomplete="off"><br><br>
+      </div>
+      <div class = "flexbox">
+        <div class="grupo expira">
+          <label for="selectMes">Expiracion:</label><br><br>
+          <div class = "flexbox">
+            <div class="grupo-select">
+              <select name="mes" id="selectMes">
+                <option disabled selected>Mes:</option>
+              </select>
+            </div>
+            <div class="grupo-select">
+              <select name="year" id="selectYear">
+                <option disabled selected>Año:</option>
+              </select>
+            </div>
+          </div>
+        </div>  
+      </div> 
+      <div class="grupo cvv">
+              <label for="inputcvv">CVV</label>
+              <input type="text" id="inputcvv" maxlength="3"><br><br>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar</button>
+
+
+      
+      
+    </form>
+    
+   
+    
+
+
+    
     <main></main>
     <footer></footer>
     <script src="index.js" type="module"></script>
