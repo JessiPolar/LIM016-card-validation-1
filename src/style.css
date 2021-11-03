@@ -8,7 +8,31 @@ form {
     border-radius: 1em;
 }
 
-.formulario-tarjeta .flexbox {
+.formulario .flexbox {
     display: flex;
     justify-content: space-between;
+}
+
+body {
+    background-color: rgb(242, 246, 247);
+    background-image:url("img/demo12.png");
+    
+}
+
+h1 { 
+  background-color: rgb(15, 196, 252);
+  border-bottom: 20px solid rgb(103, 50, 250);
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  
+}
+
+h2 {
+    background-image:url("demo12.png");
+    background-color: rgb(15, 196, 252);
+}
+
+h3 {
+    
 }

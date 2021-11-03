@@ -7,10 +7,11 @@
   </head>
   <body>
     <h1>Slide</h1>
+      <img src="img/demo12.png">
       <h2>Funcionalidad de las zapatillas patines</h2>
       <h3>Abre la cerradura de seguridad</h3>
       <p>Gire el boton del interruptor de seguridad en el talon de la zapatilla</p>
-      <H3>Rueda de expulsion</H3>
+      <h3>Rueda de expulsion</h3>
       <p>Cuando la direccion del interruptor es correcta,presione el interruptor firmemente y la rueda se levantara automaticamente</p>
       <h3>Polea oculta</h3>
       <p>Tiene buena resistencia al impacto,reduce el ruido,lo hace mas comodo y tiene un mejor efecto de patinaje</p>
@@ -20,7 +21,7 @@
       <h3>Zapatillas de Niños</h3>
        
 
-    <form action="" id="formulario-datos" class="#formulario-datos">
+    <form action="" id="formulario-datos" class="formulario-datos">
       <div>
         <h3>Datos de Entrega</h3>
         <label>Nombre:<input type="text"></label><br><br>
@@ -34,13 +35,14 @@
 
     </form>
 
-    <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+    <form action="" id="formulario" class="formulario">
       <div>
         <h3>Medios de Pago</h3>
       </div>
       <div class="grupo">
         <label for="inputNumero">Numero Tarjeta:</label>
-        <input type="text" id="inputNumero" maxlength="19" autocomplete="off"><br><br>
+        <input type="text" id="inputNumero" name="inputNumero" maxlength="19" autocomplete="off"><br><br>
+        <p id="Resultado tarjeta"></p>
       </div>
       <div class="grupo">
         <label for="inputNombre">Nombre:</label>
@@ -67,7 +69,7 @@
               <label for="inputcvv">CVV</label>
               <input type="text" id="inputcvv" maxlength="3"><br><br>
       </div>
-      <button type="submit" class="btn-enviar">Enviar</button>
+      <button id ="Enviar">Enviar</button>
 
 
       
