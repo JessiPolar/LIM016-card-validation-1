@@ -1,5 +1,13 @@
  
    
+#formulario-datos {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid rgb(39, 34, 34);
+    border-radius: 1em;
+}
+
 form {
     margin: 0 auto;
     width: 400px;
