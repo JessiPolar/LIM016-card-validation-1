@@ -1,6 +1,7 @@
 const validator = {
   isValid: function(numero){
-      let digitos = numero.toString().split("");
+      numero = numero.replace(/ /g, "");
+      let digitos = numero.split("");
       digitos = digitos.reverse();
       for( let i = 0; i < digitos.length; i++){
         digitos[i] = parseInt(digitos[i]);

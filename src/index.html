@@ -7,21 +7,26 @@
   </head>
   <body>
     <h1>Slide</h1>
-      <img src="img/demo12.png">
-      <h2>Funcionalidad de las zapatillas patines</h2>
-      <h3>Abre la cerradura de seguridad</h3>
-      <p>Gire el boton del interruptor de seguridad en el talon de la zapatilla</p>
-      <h3>Rueda de expulsion</h3>
-      <p>Cuando la direccion del interruptor es correcta,presione el interruptor firmemente y la rueda se levantara automaticamente</p>
-      <h3>Polea oculta</h3>
-      <p>Tiene buena resistencia al impacto,reduce el ruido,lo hace mas comodo y tiene un mejor efecto de patinaje</p>
+    <main id="principal">
+      <h2>Zapatillas Patines</h2>
+      <img src="img/zapatilla1.png">
+      <section>
+        <h2>Funcionalidad de las zapatillas patines</h2>
+        <h4>Abre la cerradura de seguridad</h4>
+        <p>Gire el boton del interruptor de seguridad en el talon de la zapatilla</p>
+        <h4>Rueda de expulsion</h4>
+        <p>Cuando la direccion del interruptor es correcta,presione el interruptor firmemente y la rueda se levantara automaticamente</p>
+        <h4>Polea oculta</h4>
+        <p>Tiene buena resistencia al impacto,reduce el ruido,lo hace mas comodo y tiene un mejor efecto de patinaje</p>
 
-      <h3>Zapatillas de Mujer</h3>
-      <h3>Zapatillas de Hombre</h3>
-      <h3>Zapatillas de Niños</h3>
-       
-
-    <form action="" id="formulario-datos" class="formulario-datos">
+        <h3>Zapatillas de Mujer</h3>
+        <h3>Zapatillas de Hombre</h3>
+        <h3>Zapatillas de Niños</h3>
+        <p id="comprar"></p>
+        <a id="btnComprar" href="#comprar"><button>Comprar</button></a>
+      </section>
+    </main>
+    <form style="display: none;" action="" id="formulario-datos" class="formulario-datos">
       <div>
         <h3>Datos de Entrega</h3>
         <label>Nombre:<input type="text"></label><br><br>
@@ -30,12 +35,18 @@
         <label>Distrito:<input type="text"></label><br><br>
         <label>Ciudad:<input type="text"></label><br><br>
         <label>Telefono:<input type="text"></label><br><br>
-        <label>Email:<input type="text"></label><br><br>
+        <label>Email:<input type="text"></label>
+        <!--
+        <a id="btnSeguirComprando" href="#seguir comprando"><button>Seguir comprando</button></a> 
+        -->
+        
       </div>
+      
 
     </form>
-
-    <form action="" id="formulario" class="formulario">
+    <button id="btnSeguirComprando">Seguir comprando</button>
+    
+    <form style="display:none" id="formulario" class="formulario">
       <div>
         <h3>Medios de Pago</h3>
       </div>
